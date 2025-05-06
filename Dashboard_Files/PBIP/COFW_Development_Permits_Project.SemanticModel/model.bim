@@ -1,0 +1,5658 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"public cofw_development_permits\",\"Errors in public cofw_development_permits\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.136.1478.0 (24.09)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "public_cofw_development_permit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "public cofw_development_permit": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.day_elapsed": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "days_elapsed"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day elapsed": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "days_elapsed": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.filing_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "filing_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filing date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "filing_date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "filing moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "filing period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.filing_date.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "filing_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filing date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.filing_date.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "filing_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filing day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "filing date day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date day": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "filing moment day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "moment day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "filing period day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "period day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.filing_date.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "filing_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filing month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "filing date month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date month": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "filing date mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "filing mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "filing moment month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "moment month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "filing period month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "period month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.filing_date.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "filing_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filing quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "filing date quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date quarter": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "filing date qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "filing qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "date qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "filing moment quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "moment quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "filing period quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "period quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.filing_date.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "filing_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "filing year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "filing date year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date year": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "filing date yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "filing yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "filing moment year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "moment year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "filing period year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "period year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.job_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "job_value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "job value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "job_value": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "value": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "job assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "job worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "job price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "job cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "job charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "job rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.latitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "Latitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "latitude": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "leeway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "freedom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "autonomy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "liberty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "opportunity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "room": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "scope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.legal_description": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "legal_description"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "legal description": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "legal_description": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "description": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "legal appearance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "legal descriptor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "legal explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "legal specification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "appearance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "descriptor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "specification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "legal account": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "legal overview": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.location": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "Location"
+                  }
+                },
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "location": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "place": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "placement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "scene": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "venue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "address": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "setting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "spot": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.longitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "Longitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "longitude": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.owner_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "owner_name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "owner name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "owner_name": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "owner": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "ownership": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "holder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "landlord": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "possessor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "proprietor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "shareholder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "titleholder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "owner nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "owner title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "owner label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.permit_category": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "permit_category"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "permit category": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "permit_category": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "category": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "permit classification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "classification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "permit class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit group": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit grouping": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "grouping": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.permit_geog_point": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "permit_geog_point"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "permit geog point": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "permit_geog_point": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "permit geog opinion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "permit geog fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "permit geog idea": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "permit geog argument": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "permit geog topic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "permit geog theme": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "permit geog outlet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "permit geog socket": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "permit geog plug": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "permit geog contact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.permit_location": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "permit_location"
+                  }
+                },
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "permit location": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "permit_location": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "place": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "permit locality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "permit placement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "permit scene": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "permit venue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "permit address": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit place": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit setting": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit spot": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.permit_number": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "Permit Number"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "permit number": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "permit no": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.permit_sub_type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "permit_sub_type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "permit sub type": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "permit_sub_type": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "type": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sub type": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "permit sub category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "permit sub genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "permit sub manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "permit sub variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "sub category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "sub genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "sub manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "sub variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "permit sub brand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "permit sub class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.permit_type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "permit_type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "permit type": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "permit_type": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "type": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "permit genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "permit manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "permit variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "permit brand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "permit style": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.special_text": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "special_text"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "special text": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "special_text": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "text": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "special manuscript": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "special transcript": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "special typescript": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "special edition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "special version": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "manuscript": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "transcript": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "typescript": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "edition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "version": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.specific_use": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "specific_use"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "specific use": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "specific_use": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "use": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "specific usage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "specific procedure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "usage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "procedure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "specific custom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "specific habit": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "specific practice": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "specific routine": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "custom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "habit": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.square_foot": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "square_feet"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "square foot": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "square_feet": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "foot": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "square base": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "square bottom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "square end": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "base": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "end": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.status": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "status"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "prestige": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "prominence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "level": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "Permit Status": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.status_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "status_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "status_date": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "status moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "status period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "category date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "importance date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prestige date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prominence date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "condition date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "class date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "grade date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "level date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.status_date.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "status_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.status_date.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "status_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "status date day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date day": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "category date day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "importance date day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "prestige date day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "prominence date day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "status moment day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "category day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "importance day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prestige day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "prominence day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "moment day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.status_date.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "status_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "status date month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date month": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "status date mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "status mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "category date month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "importance date month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "prestige date month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "prominence date month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "status moment month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "category month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.status_date.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "status_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "status date quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date quarter": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "status date qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "status qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "date qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "category date quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "importance date quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "prestige date quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "prominence date quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "status moment quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "category quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.status_date.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "status_date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "status date year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date year": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "status date yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "status yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "date yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "category date year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "importance date year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "prestige date year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "prominence date year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "status moment year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "category year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.unit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "units"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "unit": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "module": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "element": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "entity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "component": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "constituent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.use_type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "use_type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "use type": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "use_type": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "type": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "use category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "use genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "use manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "use variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "use brand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "use class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "use kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "public_cofw_development_permit.work_description": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "public cofw_development_permits",
+                    "ConceptualProperty": "work_description"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "work description": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "work_description": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "description": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "work appearance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "work descriptor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "work explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "work specification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "appearance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "descriptor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "specification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "work account": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "work overview": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "public_cofw_development_permit_filing_date_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.filing_date"
+                      }
+                    },
+                    "ID": "filing_dates_have_filing_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.filing_date": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date"
+                    }
+                  },
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_filing_date_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "filing_date_hierarchies_have_filing_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                    }
+                  },
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_filing_date_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "filing_date_hierarchies_have_filing_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                    }
+                  },
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_filing_date_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "filing_date_hierarchies_have_filing_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                    }
+                  },
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_filing_date_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "filing_date_hierarchies_have_filing_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy"
+                    }
+                  },
+                  "public_cofw_development_permit.filing_date.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_day_elapsed": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.day_elapsed"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_day_elapsed",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.day_elapsed": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.day_elapsed"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_filing_date": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.filing_date"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_filing_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.filing_date": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_job_value": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.job_value"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_job_values",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.job_value": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.job_value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_latitude": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.latitude"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_latitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.latitude": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.latitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_legal_description": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.legal_description"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_legal_descriptions",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.legal_description": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.legal_description"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_location": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.location"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_locations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.location": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.location"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_longitude": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.longitude"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_longitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.longitude": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.longitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_owner_name": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.owner_name"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_owner_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "owner_names_own_public_cofw_development_permits",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.owner_name"
+                      },
+                      "Verbs": [
+                        {
+                          "own": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.75
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.owner_name"
+                      }
+                    },
+                    "ID": "owner_names_have_public_cofw_development_permits",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.owner_name": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.owner_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_permit_category": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.permit_category"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_permit_categories",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.permit_category": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.permit_category"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_permit_geog_point": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.permit_geog_point"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_permit_geog_points",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.permit_geog_point": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.permit_geog_point"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_permit_location": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.permit_location"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_permit_locations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.permit_location": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.permit_location"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_permit_number": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.permit_number"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_permit_numbers",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.permit_number": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.permit_number"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_permit_sub_type": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.permit_sub_type"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_permit_sub_types",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.permit_sub_type": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.permit_sub_type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_permit_type": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.permit_type"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_permit_types",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.permit_type": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.permit_type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_special_text": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.special_text"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_special_texts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.special_text": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.special_text"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_specific_use": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.specific_use"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_specific_uses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.specific_use": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.specific_use"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_square_foot": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.square_foot"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_square_feet",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.square_foot": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.square_foot"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_status": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.status"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_statuses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.status": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_status_date": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.status_date"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_status_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.status_date": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_unit": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.unit"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_units",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.unit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.unit"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_use_type": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.use_type"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_use_types",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.use_type": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.use_type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_has_work_description": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.work_description"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "ID": "public_cofw_development_permits_have_work_descriptions",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.work_description": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.work_description"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_in_location": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "public_cofw_development_permits_are_in_locations",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.location"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.location": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.location"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "public_cofw_development_permit.location"
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_in_permit_location": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "public_cofw_development_permits_are_in_permit_locations",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.permit_location"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "public_cofw_development_permit"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.permit_location": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.permit_location"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "public_cofw_development_permit.permit_location"
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_is_filed_on_filing_date": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "public_cofw_development_permits_are_filed_on_filing_dates",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit"
+                      },
+                      "Verbs": [
+                        {
+                          "file": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit"
+                    }
+                  },
+                  "public_cofw_development_permit.filing_date": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.filing_date"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "public_cofw_development_permit.filing_date"
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_status_date_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.status_date"
+                      }
+                    },
+                    "ID": "status_dates_have_status_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.status_date": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date"
+                    }
+                  },
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_status_date_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "status_date_hierarchies_have_status_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                    }
+                  },
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_status_date_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "status_date_hierarchies_have_status_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                    }
+                  },
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_status_date_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "status_date_hierarchies_have_status_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                    }
+                  },
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "public_cofw_development_permit_status_date_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "public cofw_development_permits"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "status_date_hierarchies_have_status_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy"
+                    }
+                  },
+                  "public_cofw_development_permit.status_date.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "public_cofw_development_permit.status_date.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Errors in public cofw_development_permits",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "Source = #\"public cofw_development_permits\",",
+          "  #\"Detected Type Mismatches\" = let",
+          "    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Source, Table.ColumnsOfType(Source, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),",
+          "    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),",
+          "    fieldNames = Record.FieldNames(recordTypeFields),",
+          "    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),",
+          "    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = \"The type of the value does not match the type of the column.\", Detail = v], fieldTypes{i}})",
+          "in",
+          "    Table.TransformColumns(Source, pairs),",
+          "  #\"Added Index\" = Table.AddIndexColumn(#\"Detected Type Mismatches\", \"Row Number\" ,1),",
+          "  #\"Kept Errors\" = Table.SelectRowsWithErrors(#\"Added Index\", {\"permit_number\", \"permit_type\", \"permit_sub_type\", \"permit_category\", \"work_description\", \"legal_description\", \"owner_name\", \"filing_date\", \"status\", \"status_date\", \"permit_location\", \"job_value\", \"use_type\", \"specific_use\", \"units\", \"square_feet\", \"special_text\", \"location_lat\", \"location_long\", \"permit_geog_point\"}),",
+          "  #\"Reordered Columns\" = Table.ReorderColumns(#\"Kept Errors\", {\"Row Number\", \"permit_number\", \"permit_type\", \"permit_sub_type\", \"permit_category\", \"work_description\", \"legal_description\", \"owner_name\", \"filing_date\", \"status\", \"status_date\", \"permit_location\", \"job_value\", \"use_type\", \"specific_use\", \"units\", \"square_feet\", \"special_text\", \"location_lat\", \"location_long\", \"permit_geog_point\"}),",
+          "    #\"Removed Columns\" = Table.RemoveColumns(#\"Reordered Columns\",{\"permit_geog_point\"})",
+          "in",
+          "  #\"Removed Columns\""
+        ],
+        "kind": "m",
+        "lineageTag": "f95e3e88-9b1b-4542-9c03-e9f9d9aa4bf2",
+        "queryGroup": "Query Errors - 10/15/2024 10:11:23 AM"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "description": "Errors in queries that were loaded on 10/15/2024 10:11:23 AM.",
+        "folder": "Query Errors - 10/15/2024 10:11:23 AM"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "c17277f9-9332-463d-9cc9-56260f862114",
+        "fromColumn": "filing_date",
+        "fromTable": "public cofw_development_permits",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_904edda6-95c8-40e7-9130-6c12ffc4d865"
+      },
+      {
+        "name": "cba07e8c-90cc-4af0-9703-6ad86c122d46",
+        "fromColumn": "status_date",
+        "fromTable": "public cofw_development_permits",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_7bf76d22-d100-42ca-b97b-d9766d956adc"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "public cofw_development_permits",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Permit Number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f739ad15-ba3c-4cf0-82ca-8d6add6f623b",
+            "sourceColumn": "Permit Number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "permit_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "70021ad8-50c1-4ee2-9022-3affa180dd11",
+            "sourceColumn": "permit_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "permit_sub_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "08e74103-7e6e-4fb5-8f19-1eb2a66454e0",
+            "sourceColumn": "permit_sub_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "permit_category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a3556164-b546-4f5b-8b19-afdc4355ea77",
+            "sourceColumn": "permit_category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "work_description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c1258584-5302-4ec9-a554-1da3dfe09071",
+            "sourceColumn": "work_description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "legal_description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f8379498-a3e6-4ed3-8a5d-f202bf30b039",
+            "sourceColumn": "legal_description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "owner_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d8edb8b6-e08d-4f57-8b70-85ecd29f59ba",
+            "sourceColumn": "owner_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "filing_date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm-dd",
+            "lineageTag": "5cc2d52b-fec0-4915-8679-4f9da40c6c2e",
+            "sourceColumn": "filing_date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_904edda6-95c8-40e7-9130-6c12ffc4d865"
+                },
+                "isDefault": true,
+                "relationship": "c17277f9-9332-463d-9cc9-56260f862114"
+              }
+            ]
+          },
+          {
+            "name": "status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "87144b43-62ae-47bc-8073-97f14e29762a",
+            "sourceColumn": "status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status_date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "yyyy-mm-dd",
+            "lineageTag": "80550541-92c3-4b67-9575-b98a758dd17a",
+            "sourceColumn": "status_date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_7bf76d22-d100-42ca-b97b-d9766d956adc"
+                },
+                "isDefault": true,
+                "relationship": "cba07e8c-90cc-4af0-9703-6ad86c122d46"
+              }
+            ]
+          },
+          {
+            "name": "permit_location",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "Place",
+            "dataType": "string",
+            "lineageTag": "01cce433-2c42-4d5d-8e96-c49ff7ee6dc2",
+            "sourceColumn": "permit_location",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "job_value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "43012287-d780-420b-9f31-04841e7fa7c6",
+            "sourceColumn": "job_value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "use_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "82cc2cd9-3701-4a9e-a8ac-3ade849e5b1c",
+            "sourceColumn": "use_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "specific_use",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c213562a-0d58-49fc-ae0c-25b8b8619be2",
+            "sourceColumn": "specific_use",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "units",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "20389169-c074-4f7c-89f3-c3a3d886a369",
+            "sourceColumn": "units",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "square_feet",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d7729a5b-1e0b-45d4-ab8e-672ac7f8dd52",
+            "sourceColumn": "square_feet",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "special_text",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e4759932-53b0-453e-a993-eb7ff103b8bc",
+            "sourceColumn": "special_text",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "Latitude",
+            "dataType": "double",
+            "formatString": "0.000000",
+            "lineageTag": "d1206b89-dbdd-4952-9114-2a7b37a586aa",
+            "sourceColumn": "Latitude",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "Longitude",
+            "dataType": "double",
+            "formatString": "0.000000",
+            "lineageTag": "318440ce-00f1-46fe-9043-851e4bb7ec28",
+            "sourceColumn": "Longitude",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "permit_geog_point",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2a10cc07-1d4b-4ec1-9772-b0765e0aa5a5",
+            "sourceColumn": "permit_geog_point",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Location",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "Place",
+            "dataType": "string",
+            "expression": "CONCATENATE('public cofw_development_permits'[Latitude], \", \" & 'public cofw_development_permits'[Longitude])",
+            "isDataTypeInferred": true,
+            "lineageTag": "b19729ad-1546-437b-aa44-9d35fb3bbf6e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "days_elapsed",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "DATEDIFF('public cofw_development_permits'[filing_date], 'public cofw_development_permits'[status_date], DAY)",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "9c79a57b-c6d2-4303-b326-4fe30f4a5f80",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "c0f0135f-fcd2-4c1e-994f-f4dea8d20028",
+        "partitions": [
+          {
+            "name": "public cofw_development_permits",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(\"localHost\", \"public_data_project\"),",
+                "    public_cofw_development_permits = Source{[Schema=\"public\",Item=\"cofw_development_permits\"]}[Data],",
+                "    #\"Renamed Columns\" = Table.RenameColumns(public_cofw_development_permits,{{\"location_lat\", \"Latitude\"}, {\"location_long\", \"Longitude\"}, {\"permit_number\", \"Permit Number\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_b0d6ba06-3db8-41cd-ae81-a75b2b5ded38",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "d05141a1-e1e8-46d1-9df5-a7e739e22e82",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e868f514-2beb-409d-880f-38ad5fe80d58",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "eb8613e0-d1e0-4368-bf05-f996b18fdbae",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "8cad5ff1-0373-4a9d-aee2-61c42e61a25c",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "46a4136e-d734-49e4-8b00-a79c9e0d6596",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "ba4a3155-e9a9-474b-bfd2-1bd8eaadb21d",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "992a161b-8272-45e9-b84d-1f22dbc22397",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "276281c7-f76c-4a21-a960-ce8029b8deb2",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "fd0c7897-f448-4cab-94a8-c5c20aaa163c",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "ccc0f3ed-5aeb-4b7f-ab70-74f14ef471e4",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "b03b139c-ed21-40d5-833e-67d2c210307f",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "c749bebe-f507-4e2a-aee4-f0d2a4fe0917"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "de96861a-fd0f-4084-be87-880f84725dc4",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_b0d6ba06-3db8-41cd-ae81-a75b2b5ded38",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_904edda6-95c8-40e7-9130-6c12ffc4d865",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "5429c705-a833-43dd-8325-4af8ce55c978",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "3cf38521-a797-4e1f-906c-c4da2482af7d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "dbf20251-5da8-40d6-9356-7bdc92da5a2e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "080a5164-b727-4aaa-b6ff-4efdc292cf87",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "0e77d8cc-74c4-4cd5-8758-c5ef47688b91",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "f209e9a3-80c9-4260-b772-ae9111f79d97",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "8f52a4b3-a9fc-4b95-9d78-81eade22f9bc",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "d79065a1-bc6e-40df-bcc5-947b199a8ceb",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "56581b13-01f7-4115-b3b6-81ebfb07e172",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "9a4a5b3e-f52b-4aa2-b6e2-081e3bdb0575",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "7dfd7ef2-ef1e-48ff-899f-2fbb575752b2",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "c69fefc7-b16c-4647-ab58-87ff7e4ea6aa"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "a0ed76c6-8e72-4dc5-98a2-6b03444772cc",
+        "partitions": [
+          {
+            "name": "LocalDateTable_904edda6-95c8-40e7-9130-6c12ffc4d865",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('public cofw_development_permits'[filing_date])), 1, 1), Date(Year(MAX('public cofw_development_permits'[filing_date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "LocalDateTable_7bf76d22-d100-42ca-b97b-d9766d956adc",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "5a313bc3-365c-4f75-b529-eec0cdd5b2b6",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "fb760349-1141-461f-8e1d-aa0df2da3e66",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "cdaadb62-0b2c-44db-9984-70d9f6e292ea",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "17ed8ae6-a3bc-4e8e-9fd1-b785699313ec",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "1c1b5062-cc22-483e-801a-3eabe84905c3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "45bd51ac-b981-4548-95f2-f21ce0a5d7cf",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "c988c0df-b8ad-4c24-b4ee-20586e2653ea",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "06719b88-ee6c-4895-9ffb-51c7ba42b9bd",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "11ae2de1-9800-44fc-a26d-372dbfc36946",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "ae786983-345e-464e-b0f7-568a00f2732b",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "1f6be900-478c-4487-99bb-8bf125f6fb23",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "7a0b00d8-b2a9-43eb-8c9f-be08432de0ec"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "34735d94-b8c2-4217-889f-214ee3f07101",
+        "partitions": [
+          {
+            "name": "LocalDateTable_7bf76d22-d100-42ca-b97b-d9766d956adc",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('public cofw_development_permits'[status_date])), 1, 1), Date(Year(MAX('public cofw_development_permits'[status_date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}

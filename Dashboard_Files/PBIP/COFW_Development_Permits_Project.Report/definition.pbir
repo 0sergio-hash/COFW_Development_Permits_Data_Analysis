@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../COFW_Development_Permits_Project.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

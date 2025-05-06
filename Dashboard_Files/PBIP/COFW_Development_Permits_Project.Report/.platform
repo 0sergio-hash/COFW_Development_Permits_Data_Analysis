@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "COFW_Development_Permits_Project"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c45628b8-c5f9-49d0-baa2-bdadb77f301b"
+  }
+}
