@@ -1,7 +1,7 @@
 # 📊 City of Fort Worth Development Permits Data Analysis
 
 _An analysis of public permit data from the Ciy of Fort Worth using PostgreSQL and Power BI. 
-Full write-up will be posted to my blog at https://medium.com/@sergioramos3.sr_
+A 3 part series about this project, including the results of my data analysis is available on my blog at https://medium.com/@sergioramos3.sr/list/exploring-cofw-a8720258688b_
 
 ## 🔍 Project Overview
 
